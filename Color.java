@@ -1,5 +1,7 @@
 package A4.developertools;
 
+import java.util.Date;
+
 /**
  * Prints out a color
  *
@@ -8,5 +10,8 @@ package A4.developertools;
  */
 
 public class Color {
-
+    public static void main(String[] args) {
+        System.out.println("The color Blue");
+        System.out.println(new Date());
+    }
 }
